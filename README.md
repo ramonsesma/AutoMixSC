@@ -1,4 +1,11 @@
-# AutoMixSC
+﻿# AutoMixSC
+
+![SuperCollider Quarks cover](assets/supercollider-quarks-cover.png)
+
+[![Release](https://img.shields.io/github/v/release/ramonsesma/AutoMixSC)](https://github.com/ramonsesma/AutoMixSC/releases)
+[![Validate](https://img.shields.io/github/actions/workflow/status/ramonsesma/AutoMixSC/validate.yml?branch=main&label=validate)](https://github.com/ramonsesma/AutoMixSC/actions/workflows/validate.yml)
+[![License](https://img.shields.io/github/license/ramonsesma/AutoMixSC)](https://github.com/ramonsesma/AutoMixSC/blob/main/LICENSE)
+[![Quark](https://img.shields.io/badge/quark-0.1.0-blue)](https://github.com/ramonsesma/AutoMixSC/releases/tag/0.1.0)
 
 `AutoMixSC` is a portable `sclang`-only DJ mix toolkit that can plan, play, and render the same mix.
 
@@ -44,3 +51,4 @@ TestAutoMixSC.run;
 ```
 
 License: MIT.
+

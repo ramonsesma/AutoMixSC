@@ -81,10 +81,19 @@ TestAutoMixSC : UnitTest {
     }
 
     test_documentation_smoke_check {
-        this.assert(File.exists("quarks/AutoMixSC/README.md"));
-        this.assert(File.exists("quarks/AutoMixSC/HelpSource/Classes/AutoMixPlanner.schelp"));
-        this.assert(File.exists("quarks/AutoMixSC/HelpSource/Classes/AutoMixEngine.schelp"));
-        this.assert(File.exists("quarks/AutoMixSC/HelpSource/Classes/AutoMixSC.schelp"));
+        var root;
+
+        root = [".", "..", "quarks/AutoMixSC"].detect({ |candidate|
+            File.exists(candidate +/+ "README.md")
+        });
+
+        this.assert(root.notNil);
+        this.assert(File.exists(root +/+ "README.md"));
+        this.assert(File.exists(root +/+ "HelpSource/Classes/AutoMixPlanner.schelp"));
+        this.assert(File.exists(root +/+ "HelpSource/Classes/AutoMixEngine.schelp"));
+        this.assert(File.exists(root +/+ "HelpSource/Classes/AutoMixSC.schelp"));
+        this.assert(File.exists(root +/+ "assets/supercollider-quarks-cover.png"));
+        this.assert(File.exists(root +/+ "examples/quickstart.scd"));
     }
 
     test_plan_play_render_round_trip {
