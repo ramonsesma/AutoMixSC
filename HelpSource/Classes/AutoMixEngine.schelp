@@ -1,0 +1,11 @@
+CLASS:: AutoMixEngine
+SUMMARY:: Live playback and offline rendering for AutoMixSC plans.
+METHOD:: play
+ARGUMENT:: plan
+ARGUMENT:: target
+METHOD:: render
+ARGUMENT:: plan
+ARGUMENT:: path
+ARGUMENT:: format
+METHOD:: stop
+ARGUMENT:: mixId

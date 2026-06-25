@@ -1,0 +1,8 @@
+CLASS:: AutoMixPlanner
+SUMMARY:: Deterministic planning for DJ-style mixes from library and policy data.
+METHOD:: plan
+ARGUMENT:: library
+ARGUMENT:: policy
+METHOD:: report
+ARGUMENT:: library
+ARGUMENT:: policy

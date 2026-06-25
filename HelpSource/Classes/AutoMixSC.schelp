@@ -1,0 +1,19 @@
+CLASS:: AutoMixSC
+SUMMARY:: Facade for deterministic DJ mix planning, live playback, and offline rendering.
+METHOD:: plan
+ARGUMENT:: library
+ARGUMENT:: policy
+METHOD:: play
+ARGUMENT:: plan
+ARGUMENT:: target
+METHOD:: render
+ARGUMENT:: plan
+ARGUMENT:: path
+ARGUMENT:: format
+METHOD:: stop
+ARGUMENT:: mixId
+METHOD:: inspect
+ARGUMENT:: library
+ARGUMENT:: policy
+METHOD:: report
+ARGUMENT:: planOrResult

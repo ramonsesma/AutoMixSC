@@ -1,0 +1,11 @@
+(
+    name: "AutoMixSC",
+    summary: "Deterministic DJ mix planning, live playback, and offline rendering in SuperCollider.",
+    version: "0.1.0",
+    schelp: "AutoMixSC",
+    isCompatible: { true },
+    dependencies: [],
+    author: "Studio Sesma",
+    url: "https://github.com/studio-sesma/AutoMixSC",
+    license: "MIT"
+)
