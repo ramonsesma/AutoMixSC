@@ -26,7 +26,7 @@ AutoMixSC.render(~plan, "mix.wav", \wav);
 ## Install
 
 ```supercollider
-Quarks.install("https://github.com/studio-sesma/AutoMixSC");
+Quarks.install("https://github.com/ramonsesma/AutoMixSC");
 ```
 
 ## Test

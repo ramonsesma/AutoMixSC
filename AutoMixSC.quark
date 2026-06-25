@@ -6,6 +6,6 @@
     isCompatible: { true },
     dependencies: [],
     author: "Studio Sesma",
-    url: "https://github.com/studio-sesma/AutoMixSC",
+    url: "https://github.com/ramonsesma/AutoMixSC",
     license: "MIT"
 )
